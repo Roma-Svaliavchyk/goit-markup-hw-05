@@ -870,14 +870,14 @@ address {
   margin: 0 auto;
 }
 
-.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
 .is-close {
   visibility: hidden;
   pointer-events: none;
   opacity: 0;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
